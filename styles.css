@@ -1,22 +1,51 @@
 body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
     width: 90%;
-    margin: auto;
-    background-color: #F7F2B2;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(180deg, rgb(250, 244, 168), rgb(248, 245, 204));
+    background: linear-gradient(180deg, rgb(250, 244, 168), rgb(248, 245, 204));
+    background-image: url('http://mfs2.cdnsw.com/fs/Root/large/bizrw-fond_site.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: yellow;
+    color: black;
 }
 
 blockquote {
     width: 50%;
-    margin: auto;
+    font-size: 1.6rem;
+    font-style: italic;
+    margin: 0 auto;
+    background-color: #EFEFEF;
+    padding: 40px 30px;
+    border-left: 3px solid #B22222;
+    color: black;
 }
 
 q {
+    width: 50%;
     font-size: 1.6rem;
+    font-style: italic;
+    border-left: 3px solid #B22222;
+}
+
+.fermier {
+    border-left: 3px solid green;
+    padding-left: 30px;
+}
+
+.people {
+    border-left: 3px solid yellow;
+    padding-left: 30px;
 }
 
 p {
     font-style: Georgia;
     font-size: 1.2rem;
-    color: #002F2F;
     line-height: 25px;
 }
 
@@ -34,4 +63,58 @@ a:hover {
     border: 1px solid rgb(46, 46, 143);
     border-radius: 5px;
     padding: 0px 5px;
+}
+
+.bien {
+	text-transform: uppercase;
+	color: green;
+}
+.mal {
+	text-transform: uppercase;
+	color: red;
+}
+
+.linea {
+    background-color: #C0C0C0;
+}
+
+.lineb {
+    background-color: #2F4F4F;
+}
+
+.linec {
+    background-color: DarkTurquoise;
+}
+
+.puce1 {
+    background-image: url('https://github.com/becodeorg/turing-2/raw/master/Parcours/01-La-prairie/html-css/progressive-enhancement/bien.png');
+    padding-right: 2px;
+	background-repeat: no-repeat;
+    background-position: 28%;
+    background-size: 1rem;
+}
+
+.puce2 {
+    background-image: url('https://github.com/becodeorg/turing-2/raw/master/Parcours/01-La-prairie/html-css/progressive-enhancement/mal.png');
+    padding-right: 2px;
+	background-repeat: no-repeat;
+    background-position: 28%;
+    background-size: 1rem;
+}
+
+.puce3 {
+    background-image: url('https://github.com/becodeorg/turing-2/raw/master/Parcours/01-La-prairie/html-css/progressive-enhancement/chat.png');
+    padding-right: 2px;
+	background-repeat: no-repeat;
+    background-position: 28%;
+    background-size: 1rem;
+}
+
+.p1 {
+    font-weight: bold;
+}
+
+img {
+    float: left;
+    padding: 10px;
 }
