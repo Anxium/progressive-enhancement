@@ -3,7 +3,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .header {
+    position: fixed;
     display: flex;
     width: 100%;
     height: 60px;
@@ -20,13 +26,22 @@ body {
 
 .header li {
     display: inline;
-    padding-left: 30px;
+    padding-left: 20px;
     color: white;
 }
 
+.header .login {
+    position: absolute;
+    right: 150px;
+    background-image: url('./user.svg');
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
 .banner {
+    padding-top: 60px;
     display: flex;
-    background: #1E90FF;
+    background: #046380;
     text-align: center;
     height: 400px;
 }
@@ -45,7 +60,8 @@ body {
     margin: 20px;
 }
 
-.banner p {
+.banner a {
+    display: block;
     font-size: 24px;
     font-weight: bold;
     margin: 60px auto;
@@ -56,33 +72,28 @@ body {
     background: orange;
 }
 
-.banner a {
-    text-decoration: none;
-    color: white;
-}
-
 .slogan {
     display: flex;
-    height: 80px;
+    justify-content: center;
+    height: 70px;
 }
 
 .slogan p {
     color: black;
-    text-align: center;
     font-weight: 500;
     margin: auto;
     font-size: 1.8rem;
 }
 
 .container {
-    background: #1E90FF;
+    background: #046380;
     display: flex;
     flex-wrap: wrap;
 }
 
 .container div {
     display: inline-block;
-    width: 40%;
+    width: 35%;
     padding: 50px;
     margin: 0 auto;
 }
@@ -98,17 +109,45 @@ body {
     color: #EFEFEF;
 }
 
+.container em {
+    font-weight: bold;
+
+}
+
 .partners {
     display: flex;
+    justify-content: center;
     background: #EFEFEF;
-    text-align: center;
     height: 400px;
+}
+
+.partners .svg1 {
+    margin: auto;
 }
 
 .more {
     display: flex;
-    text-align: center;
-    height: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.more .api, .more .docs {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 15px 30px;
+    background: #046380;
+    border-radius: 10px;
+}
+
+.more .start {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 15px 30px;
+    background: orange;
+    border-radius: 10px;
 }
 
 .footer {
