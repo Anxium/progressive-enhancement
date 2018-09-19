@@ -1,0 +1,39 @@
+body {
+    font-family: "Open sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #DCDCDC;
+}
+
+header div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+header nav {
+    margin: auto;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+}
+
