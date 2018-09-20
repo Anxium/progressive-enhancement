@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Open sans", sans-serif;
 }
@@ -52,7 +56,6 @@ header .nav {
     height: 600px;
     background-color: #696969;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -60,6 +63,12 @@ header .nav {
     width: 20%;
     text-align: center;
     border-right: 2px solid darkgrey;
+    padding: 0px 15px;
+    height: 100%;
+}
+
+.value div:last-child {
+    border: none;
 }
 
 .value h3 {
