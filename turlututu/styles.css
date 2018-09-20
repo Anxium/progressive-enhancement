@@ -44,6 +44,8 @@ a {
     background: #046380;
     text-align: center;
     height: 400px;
+    background-image: url('https://vignette.wikia.nocookie.net/ttte/images/2/20/ThomasSeason8model.png/revision/latest?cb=20140304185843');
+    background-repeat: no-repeat;
 }
 
 .banner .text {
