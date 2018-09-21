@@ -14,14 +14,23 @@
     background: #1e93cc;
 }
 
+.grey {
+    background: #e4e4e4;
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .btn {
     text-decoration: none;
+}
+
+.nav_row {
+    position :fixed;
+    width: 100%;
 }
 
 .navbar {
@@ -36,17 +45,24 @@ body {
 .nav_ul {
     display: flex;
     justify-content: space-between;
-    width: 500px;
+    width: 40%;
     margin: 0;
     padding: 0;
 }
 
 .nav_list {
     list-style: none;
+    margin: auto;
 }
 
 .navbar a {
     color: #FFF;
+    margin: 5px 10px;
+}
+
+.login {
+    background: url('https://i.embed.ly/1/image?url=https%3A%2F%2Fcontattafiles.s3.us-west-1.amazonaws.com%2Ftnt14094%2FG860kWT0WLgjqwO%2Ficon-login.svg&key=c0f258539b9c4ab5bf044cd294d74ff1') no-repeat;
+    padding-left: 30px;
 }
 
 .hero {
@@ -55,6 +71,7 @@ body {
     color: #fff;
     display: flex;
     padding: 20px;
+    padding-top: 72px;
 }
 
 .thumb, .title, .empty {
@@ -67,6 +84,11 @@ body {
     text-align: center;
 }
 
+.title img {
+	max-width: 80%;
+    max-height: 80%;
+}
+
 .btnTop {
     background: #e99002;
     font-size: 1.2em;
@@ -76,7 +98,74 @@ body {
     width: 200px;
     text-align: center;
     display: block;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 10px;
     margin: 10px;
+}
+
+.title2 {
+    text-align: center;
+    line-height: 3em;
+    margin: 0;
+}
+
+.content .row {
+    max-width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+}
+
+.text {
+    width: 50%;
+}
+
+.partners .row {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.partners .row a {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.partners .row img {
+    margin: 10px;
+}
+
+footer {
+    max-width: 80%;
+    margin: auto;
+    padding: 10px 0px;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 0 20px;
+    border-right: 1px dotted #fff;
+}
+
+footer ul li:last-child {
+    border-right: none;
+}
+
+footer a {
+    color: #fff;
 }
