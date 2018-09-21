@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.lightyellow {
+    background: #fffde7;
+}
+
+.article {
+    max-width: 60%;
+    margin: auto;
+}
+
+.article img {
+    display: block;
+    margin: auto;
+}
+
+.article h3 {
+    font-size: 3em;
+    margin: 20px 0;
+}
