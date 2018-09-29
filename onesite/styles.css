@@ -136,6 +136,10 @@ body {
     margin: 20px;
 }
 
+.hiddenTitle {
+    display: none;
+}
+
 .more .row {
     max-width: 80%;
     margin: 0 auto 50px auto;
